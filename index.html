@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<!--ENLACE DEL ÍCONO Y MENU DE LISTA DE INICIO DE PÁGINA-->
     <header> <!--etiqueta cabecera-->
 
         <nav> <!--etiqueta de navegación-->
@@ -28,17 +29,19 @@
             </div> <!--etiqueta de estructura-->
         </nav>
     </header>
-<main> <!--contenido principal de un documento o aplicación-->
+<main> <!--contenido principal de un documento o aplicación TÍTULO Y SUBTÍTULO DE LA PÁGINA-->
     <article> <!--contiene otros objetos e instrucciones-->
         <div>  <!--determina estructura para el ontenido de label article-->
             <div> <!--contiene estructura al texto de pantalla-->
                 <h1>DESARROLLO 10.0</h1> <!--título principal de la página, permite su localización-->
                 <h2>Aprende Desarrollo Web con Aula Invertida</h2>
                 <p> A través de juegos sencillos, y material que tú mismo podrás estudiar.</p> 
-                <p>en poco tiempo crearás aplicaciones, webs y juegos super divertidos.</p> 
+                <p>en poco tiempo crearás aplicaciones, webs y juegos super divertidos.</p>
+                <!--ENLACE A CONTENIDO DE LA PÁGINA--> 
                 <a href="#">EMPEZAR YA!</a> <!--permite la inserción de un LINK a otras páginas o ventanas-->
             </div>
         <div>
+            <!--IMAGEN CENTRAL DE LA PÁGINA PARA EL GIRO E IMÁGINES QUE GIRAN-->
             <img src="./imagenes/Aprendizaje.png" alt="aprendozaje 1.0" width="256" height="256"/>
         <div>
             <figure> <!--dar margen a imagen-->
@@ -53,7 +56,7 @@
         </div>
 
     </article>
-    <section> <!--divide secciones-->
+    <section> <!--divide secciones ZONA DE CONTACTO AL PIE DE PÁGINA: EL FORMULARIO-->
         <div>
             <h2>CONTACTO</h2>
         <form> <!--crea formularios-->
@@ -65,12 +68,60 @@
             <br/>
             <input type="text" name="company" placeholder="Empresa o Escuela" required>
             <br/>
-            <button>enviar</button>
-           <!-- <input type="password" placeholder="password">-->
-            
+            <button>enviar</button>            
         </form>
         </div>
     </section>
+    <div>
+    <h2>EXPERIENCIA</h2> 
+    <table border=""> <!--CREACIÓN DE TABLAS-->
+        <tr> <!--table row-->
+            <th>Empresa</th> <!--table data-->
+            <th>Cargo</th>
+            <th>Funciones</th>
+            <th>Periodo</th>
+        </tr>
+        <tbody>
+        <tr> <!--table row-->
+            <td>Atemto</td> <!--table data-->
+            <td>Controller Desk</td>
+            <td>Asignar funciones</td>
+            <td>1 año</td>
+        </tr>
+        <tr> <!--table row-->
+            <td>Digitex</td> <!--table data-->
+            <td>Supervisor</td>
+            <td>Revisar tareas</td>
+            <td>3 años</td>
+        </tr>
+        <tr> <!--table row-->
+            <td>iSoluciones</td> <!--table data-->
+            <td>Supervisor</td>
+            <td>Monitorear cobranzas</td>
+            <td>2 años</td>
+        </tr>  
+        </tbody>  
+        <tfoot>
+            <tr>
+                <td colspan="4"> 
+                <a href="#">Ver más experiencias</a>    
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <footer>
+        <nav>
+            <div>
+            <ul>
+                <li>
+                    <a href=""></a>
+                    <img src="" alt=""/>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </footer>
 </main>
 </body>
 
