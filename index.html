@@ -8,6 +8,8 @@
     <title>Aprendizaje Web 1.0 </title> <!--coloca un título en la cabecera de la página-->
     <link rel="shortcut icon" href="./imagenes/png-transparent-incandescent-light-bulb-ico-icon-idea-bulb-electronics-text-light-thumbnail.png"
     type="image/x-icon"> <!--link rel: coloca un icono en la cabecera la página-->
+    <link rel="stylesheet" href="./CSS/index.css"/> <!--ingreso e implementación con CSS-->
+
 
 <!-- Primary Meta Tags -->
 <title>GitHub - Renato20230/developer: My first repository.</title>
@@ -29,13 +31,13 @@
 <meta property="twitter:image" content="https://i.postimg.cc/rmz0fcFm/pagina-git.png">    
 </head>
 
-<body>
+<body class="body"> <!--invoca a body como clase, en CSS irá con punto . adelante-->
 <!--ENLACE DEL ÍCONO Y MENU DE LISTA DE INICIO DE PÁGINA-->
     <header> <!--etiqueta cabecera-->
 
         <nav> <!--etiqueta de navegación-->
             <div>
-                <a href="#"> <!--anchor, ancla a otros elementos-->
+                <a href="#" class="header-nav__link-logo-conteiner"> <!--anchor, ancla a otros elementos-->
                     <img src="./imagenes/R3.png" alt="Programador Web" width="100" height="100" /> <!--inserta una imagen-->
                 </a>
                 <ul> <!--unordered list-->
@@ -57,7 +59,7 @@
                 <p> A través de juegos sencillos, y material que tú mismo podrás estudiar.</p> 
                 <p>en poco tiempo crearás aplicaciones, webs y juegos super divertidos.</p>
                 <!--ENLACE A CONTENIDO DE LA PÁGINA--> 
-                <a href="#">EMPEZAR YA!</a> <!--permite la inserción de un LINK a otras páginas o ventanas-->
+                <a href="https://web.facebook.com/ren20180201" class="hero__info-link">EMPEZAR YA!</a> <!--permite la inserción de un LINK a otras páginas o ventanas-->
             </div>
         <div>
             <!--IMAGEN CENTRAL DE LA PÁGINA PARA EL GIRO E IMÁGINES QUE GIRAN-->
@@ -123,13 +125,13 @@
         <tfoot>
             <tr>
                 <td colspan="4"> 
-                <a href="#">Ver más experiencias</a>    
+                <a href="#">Ver más experiencias</a> <!--link de pie de tabla-->    
                 </td>
             </tr>
         </tfoot>
     </table>
     </div>
-    <footer>
+    <footer> <!--pie de la página web-->
         <nav>
             <div>
             <ul>
@@ -147,7 +149,7 @@
                 </li>
             </ul>
             <h2>
-            Copyright. All rights reserved &copy; <a href="#" target="_blank" rel="noopener noreferrer">Renato Ramirez</a> 2002.
+            Copyright. All rights reserved &copy; <a href="#" target="_blank" rel="noopener noreferrer">Renato Ramirez</a> 2022.
             </h2>
         </div>
         </nav>

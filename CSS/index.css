@@ -1,0 +1,13 @@
+.body {                    
+background-color: rgb(165, 131, 96);
+color: white;
+}
+
+.header-nav__link-logo-conteiner+ul {
+display: flex;
+}
+
+.hero__info-link {
+    color: black;
+    background-color: cyan;
+}
