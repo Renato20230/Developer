@@ -1,13 +1,34 @@
-.body {                    
-background-color: rgb(165, 131, 96);
-color: white;
+:root {
+    scroll-behavior: smooth;
 }
 
-.header-nav__link-logo-conteiner+ul {
-
+.body {                    
+background-color: rgb(231, 229, 193);
+color: rgb(99, 35, 35);
+font-family: Arial, Helvetica, sans-serif;
+margin: 0%;
 }
 
 .hero__info-link {
     color: black;
     background-color: cyan;
+}
+
+.header {
+        position: fixed; /* coloca a los elementos de header (cabecera) en la parte superior de la página */
+        background-color: rgb(128, 125, 74);
+        top: 0;
+        left: 0;
+        width: 100%; /* extiende la cabera a todo el ancho de la screen */
+        box-shadow: 0 0 0.0625ren 0.0625ren #b47777;
+        padding: 1rem;
+    }
+
+.header-nav {
+    padding 1rem 8rem 2rem 4rem; 
+     /*padding empuja la cabecera y/o contenido hacia el interior de la página */
+    }
+
+.header-conteiner {
+    padding: 0 1rem;
 }
